@@ -1,4 +1,4 @@
-namespace APBD2.Models; 
+namespace APBD2.Models.Equipment;
 
 //stany wypożyczenia sprzętu 
 

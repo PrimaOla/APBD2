@@ -1,4 +1,4 @@
-namespace APBD2.Models;
+namespace APBD2.Models.Equipment;
 
 public class Projector : Equipment
 {

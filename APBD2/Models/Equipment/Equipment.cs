@@ -1,4 +1,4 @@
-namespace APBD2.Models; 
+namespace APBD2.Models.Equipment; 
 
 //Klasa bazowa dla wszystkich typów sprzętu 
 //Reprezentuje wspólne cechy: ID, nazwę, datę nabycia, stan, wartość
