@@ -1,3 +1,6 @@
+using APBD2.Models.Equipment;
+using APBD2.Models.Users;
+
 namespace APBD2.Models;
 
 //klasa do reprezentowania pojedynczego wypozyczenia sprzetu 

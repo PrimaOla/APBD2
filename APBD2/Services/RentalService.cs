@@ -1,5 +1,7 @@
 using APBD2.Exceptions;
 using APBD2.Models;
+using APBD2.Models.Equipment;
+using APBD2.Models.Users;
 using System.Linq;
 
 namespace APBD2.Services;
@@ -24,7 +26,7 @@ public class RentalService
         }
 
         int activeRentalCount = _rentals.Count(r => r.User.Id == user.Id && !r.IsReturned);
-        int userLimit = _policyService.GetUserLimit(user);
+        int userLimit = user.GetBorrowLimit();
 
         if (activeRentalCount >= userLimit)
         {
@@ -33,6 +35,13 @@ public class RentalService
             );
         }
 
+        if (days > user.GetMaxBorrowDays())
+        {
+            throw new BusinessRuleException(
+                $"User cannot borrow equipment for more than {user.GetMaxBorrowDays()} days."
+            );
+        }
+        
         DateTime borrowDate = DateTime.Now;
         DateTime dueDate = borrowDate.AddDays(days);
 

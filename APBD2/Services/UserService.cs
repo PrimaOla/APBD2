@@ -1,4 +1,4 @@
-using APBD2.Models;
+using APBD2.Models.Users;
 using System.Linq;
 
 namespace APBD2.Services;

@@ -22,6 +22,6 @@ public abstract class Equipment
 
     public override string ToString()
     {
-        return $"[{GetType().Name} ID: {Id}, Name: {Name}, Status: {Status}, Value: {value} zł]";
+        return $"[{GetType().Name} ID: {Id}, Name: {Name}, Status: {Status}, Value: {Value} zł]";
     }
 }
