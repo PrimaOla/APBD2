@@ -1,11 +1,11 @@
-namespace APBD2.Models.Equipment;
+namespace APBD2.Models.EquipmentTypes;
 
 public class Projector : Equipment
 {
     public int BrightnessLumens {get; set; }
     public string NativeResolution {get; set; }
 
-    public Projectorint (int id, string name, DateTime purchaseDate, decimal value, int brightnessLumens, string nativeResolution)
+    public Projector (int id, string name, DateTime purchaseDate, decimal value, int brightnessLumens, string nativeResolution)
     : base(id, name, purchaseDate, value)
     {
         BrightnessLumens = brightnessLumens; 

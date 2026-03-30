@@ -1,5 +1,6 @@
-using APBD2.Models.Equipment;
+using APBD2.Models.EquipmentTypes;
 using APBD2.Models.Users;
+using System;
 
 namespace APBD2.Models;
 

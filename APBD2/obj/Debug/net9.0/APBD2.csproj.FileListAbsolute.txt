@@ -1,0 +1,15 @@
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.AssemblyInfoInputs.cache
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.AssemblyInfo.cs
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.csproj.CoreCompileInputs.cache
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.sourcelink.json
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\bin\Debug\net9.0\APBD2.exe
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\bin\Debug\net9.0\APBD2.deps.json
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\bin\Debug\net9.0\APBD2.runtimeconfig.json
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\bin\Debug\net9.0\APBD2.dll
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\bin\Debug\net9.0\APBD2.pdb
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.dll
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\refint\APBD2.dll
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.pdb
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\APBD2.genruntimeconfig.cache
+C:\Users\48797\szkolne\praca-domowa-2\APBD2\obj\Debug\net9.0\ref\APBD2.dll

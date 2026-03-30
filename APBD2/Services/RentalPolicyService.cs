@@ -6,7 +6,7 @@ public class RentalPolicyService
 {
     private const decimal PenaltyPerDay = 15m; 
 
-    public decimal CalculatePenalty(DateTime dueDate, DataTime returnDate)
+    public decimal CalculatePenalty(DateTime dueDate, DateTime returnDate)
     {
         if (returnDate <= dueDate)
         {

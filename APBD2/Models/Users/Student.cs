@@ -5,7 +5,7 @@ public class Student : User
     public string IndexNumber {get; set; }
 
     public Student(int id, string firstName, string lastName, string email, string indexNumber)
-    : base(id, firstName, lastName, email UserRole.Student) 
+    : base(id, firstName, lastName, email, UserRole.Student) 
     {
         IndexNumber = indexNumber;
     }
