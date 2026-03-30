@@ -21,7 +21,7 @@ public class Rental
         Equipment = equipment; 
         User = user;
         BorrowDate = borrowDate; 
-        DueDate = dueDate.AddDays(days); 
+        DueDate = dueDate; 
         ReturnDate = null; 
         Penalty = 0;
     }
