@@ -52,7 +52,7 @@ public class RentalService
         }
 
         DateTime returnDate = DateTime.Now; 
-        rental.ReturnDate = ReturnDate;
+        rental.ReturnDate = returnDate;
         rental.Penalty = _policyService.CalculatePenalty(rental.DueDate, returnDate);
         rental.Equipment.Status = EquipmentStatus.Available;
     }
